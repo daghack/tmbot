@@ -1,0 +1,155 @@
+########################
+# Weapon Proficiencies #
+########################
+
+Short Weapons,1,-,"You are trained in the use of short weapons. A ""short weapon"" is classified as being a hand-held melee weapon that is no more than roughly 20 inches long, from the end of the pommel to the tip of the blade."
+
+One-handed Weapons,2,"Short Weapons","You are trained in the use of one-handed weapons. A “one-handed weapon” is classified as being a hand-held melee weapon that is no more than roughly 48 inches long, from the end of the pommel to the tip of the blade."
+
+Two-handed Weapons,3,"One-handed Weapons","You are trained in the use of two-handed weapons. A “two-handed weapon” is classified as being a hand-held melee weapon that is more than roughly 48 inches long, from the end of the pommel to the tip of the blade."
+
+Oversized Weapon Use,2,"Two-handed Weapons","You have built up enough strength and training to be able to use two-handed weapons in one hand. “Two-handed weapons” are classified as being longer than roughly 48 inches; without this skill, characters cannot wield such weapons in one hand, no matter how light they are. It is important to note, though, that weapons of this length will still qualify as “two-handed weapons” for all game-rule purposes, even if you are wielding them in one hand. For instance, the DISARM and FEINT skills can only be used when one is wielding a “one-handed weapon”—for this purpose, actual weapon length is more important than how many hands one happens to be using."
+
+Thrown Weapons,2,-,"You have practiced the art of using weapons that are intended to be thrown (such as throwing daggers, chakram, and stones). Thrown weapons may be of any size, as long as they have been cleared for safety ahead of time by Twin Mask staff."
+
+Bow and Arrow,3,-,"You have trained as an archer, such that you can use a bow effectively in combat. In Twin Mask, acceptable bows have a maximum draw strength of 30 pounds, archers may not fire at targets closer than 10 feet, all arrows must have a padded arrow tip larger than an average eye socket, and all arrows must be “pennied” (which means that a penny has been used to cover the end of the arrow shaft, inside the padding, so that the shaft cannot pierce the padding). Additionally, for safety reasons, no crossbows are allowed in Twin Mask."
+
+Two-weapon Fighting: Apprentice,3,-,"You have practiced fighting with two weapons at once, to the point that you can wield “short weapons” (no more than 20 inches long) in both hands at the same time. Without this skill, characters cannot equip weapons in both hands."
+
+Two-weapon Fighting: Journeyman,3,"Two-weapon Fighting: Apprentice","You have practiced fighting with two weapons at once, to the point that you can wield a “short weapon” (no more than 20 inches long) in one hand while you wield a “one-handed weapon” (between 20 and 48 inches long) in the other hand."
+
+Two-weapon Fighting: Master,3,"Two-weapon Fighting: Journeyman","You have practiced fighting with two weapons at once, to the point that you can wield any two weapons, of any length, at the same time."
+
+#######################
+# Armor Proficiencies #
+#######################
+
+Armored Training: Light,2,-,"You have trained in the art of wearing light armors in combat, giving you effective mobility while still benefiting from added defense. Light armor is generally constructed of padding, soft leather, or studded leather."
+
+Armored Training: Medium,2,"Armored Training: Light","You have trained in the art of wearing medium-weight armors in combat, giving you effective mobility while still benefiting from added defense. Medium-weight armor is generally constructed of hardened leather or chain."
+
+Armored Training: Heavy,2,"Armored Training: Medium","You have trained in the art of wearing heavy armors in combat, giving you effective mobility while still benefiting from added defense. Heavy armor is generally constructed of metal plate."
+
+Small Shield,3,-,"You have practiced using a small shield in combat, allowing you to move and block blows while maintaining your footing in the fight. You may equip a small shield—which is defined as “no longer in any one dimension than its wielder’s torso” if you dedicate an arm to using it.  Alternatively, though, you have the option of using a buckler-sized shield—defined as “no longer in any one dimension than its wielder’s forearm”—by strapping it to your forearm and leaving your hand free. If you choose to use a buckler in this way, you may use that hand for any martial purposes, including wielding a two-handed weapon or using TWO-WEAPON FIGHTING.  You may only ever equip 1 shield at a time."
+
+Medium Shield,3,"Small Shield","You have practiced using a medium-sized shield in combat, allowing you to move and block blows while maintaining your footing in the fight. You may equip a medium shield—which is defined as “no longer in any one dimension than the distance from its wielder’s waist to the ground” if you dedicate an arm to using it. You may only ever equip 1 shield at a time."
+
+Helmet Mastery,2,-,"You have had the opportunity to practice combat while wearing a helmet, such that your fighting style is not thrown off by a helmet’s restrictions on hearing or vision. Wearing a helmet in this way makes you immune to stun effects that are delivered by physical attacks (usually through the STUN skill)—when such an attack strikes you, you may call “no effect.” Stun effects delivered through other means (such as by gesture or by spell packet) cannot be blocked by a helmet in this way."
+
+Visor Mastery,2,"Helmet Mastery","You have had the opportunity to practice combat while wearing a closed-faced helmet, such that your fighting style is not thrown off by a visor’s severe restriction of your visual field. Wearing a closed-faced helmet in this way makes you immune to any effects that are delivered by gaze— when an enemy calls a “by my gaze” effect, you may call “no effect.”"
+
+#########################
+# General Combat Skills #
+#########################
+
+Toughness,3,-,"Through intense physical training, your body has become more resilient to damage. All player characters (and the vast majority of people in the world of Adelrune) default to a maximum Health Point total of 5—but, each time you take this skill, your character’s maximum Health Point total permanently increases by 1. It is important to note, though, that a character cannot take this skill more than 5 times. (Therefore, Twin Mask characters have an effective “natural” Health Point maximum cap of 10 HP.)"
+
+Dodge,6,-,"You have developed your agility to the point that, once in a while, you can suddenly evade almost any direct attack. Immediately after you are hit with any attack that could have been physically avoided (such as any weapon attack or a spell packet), you may call “dodge” to avoid suffering any effects from that attack. You do not need to physically leap aside, although some role-playing (of, perhaps, a quick twist of your torso) is encouraged. If you take this skill multiple times, you should always keep track of how many uses of DODGE you still have available, until your character gets a chance to rest and regain their full complement of skills."
+
+Willpower,6,-,"You have developed your mental resilience to the point that, once in a while, you can simply refuse to accept almost any single mind-based or indirect attack. When you would be affected by any attack that cannot be physically dodged—such as effects delivered by voice, gaze, potion, gesture, or ward—you may instead call “willpower” to avoid suffering any effects from that attack. If you take this skill multiple times, you should always keep track of how many uses of WILLPOWER you still have available, until your character gets a chance to rest and regain their full complement of skills."
+
+Parry,4,-,"You have developed your combat skills to the point that, once in a while, you can use your weapon to block even the quickest or deadliest blows. As long as you are wielding a weapon, immediately after you are hit with a melee attack (or any effect that is delivered by melee attack) by an opponent, you may call “parry” to avoid suffering any effects from that attack. If you take this skill multiple times, you should always keep track of how many uses of PARRY you still have available, until your character gets a chance to rest and regain their full complement of skills."
+
+Guardian,4,"Parry","You are not just good at protecting yourself in combat—you have practiced fighting in tandem with allies, so you can also protect them from attacks while you are within arm’s reach. As long as you are wielding a weapon, whenever an ally is hit with a melee attack, you may immediately touch that ally and call “guard parry” to prevent them from suffering any effects from the attack.  This counts as expending 1 use of the PARRY skill, and you cannot use the GUARDIAN skill if you do not have extra uses of PARRY to spend."
+
+Stamina Training,2,-,"You have physically conditioned yourself to the point that you can recover more quickly when you are exhausted or shaking off the effects of being gravely injured. Normally, a state of weakness lasts for 3 minutes; by taking this skill, however, you reduce the amount of time your character suffers weakness effects to only 2 minutes."
+
+Great Stamina,2,"Stamina Training","You have physically conditioned yourself until you approach the pinnacle of fitness, so you can recover extremely quickly when you are exhausted or shaking off the effects of being gravely injured. Normally, a state of weakness lasts for 3 minutes; by taking this skill, however, you reduce the amount of time your character suffers weakness effects to only 1 minute."
+
+3-Damage Strike,3,-,"You really know how to put your full effort into a single blow. As you make a physical ranged or melee attack, you may choose to have that attack deal a base amount of 3 damage (and therefore call “3”). If you take this skill multiple times, you should always keep track of how many uses of 3-DAMAGE STRIKE you still have available, until your character gets a chance to rest and regain their full complement of skills."
+
+5-Damage Strikee,6,-,"You know how to strike with both precision and force, dealing a devastating amount of damage with a single blow. As you make a physical ranged or melee attack, you may choose to have that attack deal a base amount of 5 damage (and therefore call “5”). If you take this skill multiple times, you should always keep track of how many uses of 5-DAMAGE STRIKE you still have available, until your character gets a chance to rest and regain their full complement of skills."
+
+Stun,3,-,"You have learned how to occasionally strike your foes much harder than they expect, knocking them off balance and giving you (and your allies) an opportunity to press the advantage. As you make a physical ranged or melee attack, you may call “stun” once. This produces a stun effect, replacing the damage that your attack would normally deal. If you take this skill multiple times, you should always keep track of how many uses of STUN you still have available, until your character gets a chance to rest and regain their full complement of skills."
+
+#########################
+# Archery and Woodcraft #
+#########################
+
+####################
+# Officer Training #
+####################
+
+######################
+# The Art of Dueling #
+######################
+
+###########################
+# The School of Suffering #
+###########################
+
+######################
+# The Assassin's Art #
+######################
+
+####################################
+# The Honored Path of the Beserker #
+####################################
+
+########################
+# Healing and Religion #
+########################
+
+####################
+# The Magical Arts #
+####################
+
+################
+# Skullduggery #
+################
+
+#############
+# Knowledge #
+#############
+
+#############
+# Influence #
+#############
+
+#############
+# Gathering #
+#############
+
+##########################
+# Crafting--Metalworking #
+##########################
+
+####################
+# Crafting--Arcane #
+####################
+
+####################
+# Crafting--Edible #
+####################
+
+###################
+# Crafting--Other #
+###################
+
+#########################
+# Human-specific Skills #
+#########################
+
+############################
+# Effendel-specific Skills #
+############################
+
+############################
+# Half-Fae-specific Skills #
+############################
+
+##################################
+# Half-Celestial-specific Skills #
+##################################
+
+##############################
+# Half-Demon-specific Skills #
+##############################
+
+###############################
+# Half-Dragon-specific Skills #
+###############################
+
+##########################
+# Hybrid-specific Skills #
+##########################
