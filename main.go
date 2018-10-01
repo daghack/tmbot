@@ -2,32 +2,20 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"os/signal"
-	"syscall"
 	"github.com/bwmarrin/discordgo"
 	"github.com/joho/godotenv"
 	"github.com/kelseyhightower/envconfig"
+	"os"
+	"os/signal"
+	"syscall"
 )
 
 type Config struct {
-	BotToken string `split_words:"true" required:"true"`
+	BotToken   string `split_words:"true" required:"true"`
 	SkillsFile string `split_words:"true" required:"true"`
 }
 
 var conf Config
-
-func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
-	if m.Author.ID == s.State.User.ID {
-		return
-	}
-	if m.Content == "ping" {
-		s.ChannelMessageSend(m.ChannelID, "Pong!")
-	}
-	if m.Content == "pong" {
-		s.ChannelMessageSend(m.ChannelID, "Ping!")
-	}
-}
 
 func init() {
 	err := godotenv.Load()

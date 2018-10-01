@@ -3,30 +3,31 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
+	"github.com/schollz/closestmatch"
 	"io"
 	"os"
 	"strings"
-	"github.com/schollz/closestmatch"
 )
 
 type Skill struct {
-	Name string
-	Cost string
+	Name   string
+	Cost   string
 	Prereq string
-	Desc string
+	Desc   string
 }
 
 type SkillSet map[string]*Skill
 
 func recordToSkill(record []string) (*Skill, error) {
 	if len(record) != 4 {
+		fmt.Printf("%+v\n", record)
 		return nil, fmt.Errorf("Record not a skill")
 	}
 	return &Skill{
-		Name: record[0],
-		Cost: record[1],
+		Name:   record[0],
+		Cost:   record[1],
 		Prereq: record[2],
-		Desc: record[3],
+		Desc:   record[3],
 	}, nil
 }
 
@@ -52,6 +53,11 @@ func LoadSkills(file string) (SkillSet, *closestmatch.ClosestMatch, error) {
 		key := strings.ToLower(skill.Name)
 		skillNames = append(skillNames, key)
 		toret[key] = skill
+		if strings.HasSuffix(key, ": apprentice") {
+			key_p := strings.TrimSuffix(key, ": apprentice")
+			toret[key_p] = skill
+			skillNames = append(skillNames, key_p)
+		}
 	}
 	bagSizes := []int{8}
 	return toret, closestmatch.New(skillNames, bagSizes), nil
